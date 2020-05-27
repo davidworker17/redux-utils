@@ -1,0 +1,20 @@
+{
+  "name": "****",
+  "version": "0.0.20",
+  "files": [
+    "index.js",
+    "plopConfig.js",
+    "templates/**/*"
+  ],
+  "main": "index.js",
+  "bin": {
+    "create-initial-module": "index.js"
+  },
+  "scripts": {
+    "create": "node index.js"
+  },
+  "dependencies": {
+    "node-plop": "^0.18.0",
+    "plop": "^2.3.0"
+  }
+}

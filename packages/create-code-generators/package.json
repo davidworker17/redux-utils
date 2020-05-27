@@ -1,0 +1,21 @@
+{
+  "name": "****",
+  "version": "0.0.13",
+  "files": [
+    "index.js",
+    "plopConfig.js",
+    "generators/**/*"
+  ],
+  "main": "index.js",
+  "bin": {
+    "create-code-generators": "index.js"
+  },
+  "scripts": {
+    "create": "node index.js"
+  },
+  "dependencies": {
+    "lodash": "^4.17.11",
+    "node-plop": "^0.18.0",
+    "plop": "^2.3.0"
+  }
+}

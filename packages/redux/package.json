@@ -1,0 +1,40 @@
+{
+  "name": "****",
+  "version": "0.0.25",
+  "files": [
+    "lib"
+  ],
+  "main": "lib/index.js",
+  "scripts": {
+    "build": "babel src --out-dir lib",
+    "test": "react-scripts test --env=jsdom"
+  },
+  "dependencies": {
+    "@redux-dynostore/core": "^3.0.1",
+    "@redux-dynostore/react-redux-subspace": "^3.0.1",
+    "@redux-dynostore/redux-saga": "^3.0.1"
+  },
+  "devDependencies": {
+    "******/utils": "^2.0.38",
+    "babel-cli": "^6.26.0",
+    "babel-preset-latest": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-stage-2": "^6.24.1",
+    "connected-react-router": "^6.5.2",
+    "react": "16.8.6",
+    "react-dom": "16.8.6",
+    "react-redux": "7.1.1",
+    "redux": "4.0.0",
+    "redux-actions": "^2.2.1"
+  },
+  "peerDependencies": {
+    "******/utils": "^2.0.22",
+    "connected-react-router": "^6.5.2",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "react-redux": "^7.1.1",
+    "redux": "^4.0.0",
+    "redux-actions": "^2.2.1"
+  },
+  "gitHead": "44980241b7cb957fd65225de76d05c9be419013a"
+}

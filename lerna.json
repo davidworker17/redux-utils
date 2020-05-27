@@ -1,0 +1,13 @@
+{
+  "packages": [
+    "packages/*"
+  ],
+  "version": "independent",
+  "npmClient": "yarn",
+  "npmClientArgs": [
+    "--no-lockfile"
+  ],
+  "verifyAccess": false,
+  "registry": "https://registry.npmjs.org",
+  "useWorkspaces": true
+}
