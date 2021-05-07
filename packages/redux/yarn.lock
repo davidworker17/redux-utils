@@ -2,6 +2,15 @@
 # yarn lockfile v1
 
 
+"******/utils@^2.0.38":
+  version "2.0.38"
+  resolved "https://registry.yarnpkg.com/******/utils/-/utils-2.0.38.tgz#0a47e7ec129c07ee2b5082794d0d2477fd28aa5b"
+  integrity sha512-qR/oNhw64D4hkghOPgPttofhNS6JKlzgxwhVs1l5fGFours6swO5dit0sg0GSe+17PGniL+y24UWn9gt59/KMw==
+  dependencies:
+    content-disposition "^0.5.3"
+    content-type "^1.0.4"
+    regenerator-runtime "^0.13.2"
+
 "@babel/runtime@^7.0.0":
   version "7.6.3"
   resolved "https://registry.yarnpkg.com/@babel/runtime/-/runtime-7.6.3.tgz#935122c74c73d2240cafd32ddb5fc2a6cd35cf1f"
@@ -32,15 +41,6 @@
   version "3.0.1"
   resolved "https://registry.yarnpkg.com/@redux-dynostore/redux-saga/-/redux-saga-3.0.1.tgz#2482683da0964644bcee07af23f51f57709c0426"
   integrity sha512-kbul6xPXKZ/CZOYz50Cynrxp8gAk8t8u8VSKyyN9kTxFZ+P3S2et4KZWCgiTvDJ7FhDdDzZe72tF5KqM6czGjg==
-
-"******/utils@^2.0.38":
-  version "2.0.38"
-  resolved "https://registry.yarnpkg.com/******/utils/-/utils-2.0.38.tgz#0a47e7ec129c07ee2b5082794d0d2477fd28aa5b"
-  integrity sha512-qR/oNhw64D4hkghOPgPttofhNS6JKlzgxwhVs1l5fGFours6swO5dit0sg0GSe+17PGniL+y24UWn9gt59/KMw==
-  dependencies:
-    content-disposition "^0.5.3"
-    content-type "^1.0.4"
-    regenerator-runtime "^0.13.2"
 
 "@types/hoist-non-react-statics@^3.3.0":
   version "3.3.1"
@@ -2603,9 +2603,9 @@ trim-right@^1.0.1:
   integrity sha1-yy4SAwZ+DI3h9hQJS5/kVwTqYAM=
 
 ua-parser-js@^0.7.18:
-  version "0.7.20"
-  resolved "https://registry.yarnpkg.com/ua-parser-js/-/ua-parser-js-0.7.20.tgz#7527178b82f6a62a0f243d1f94fd30e3e3c21098"
-  integrity sha512-8OaIKfzL5cpx8eCMAhhvTlft8GYF8b2eQr6JkCyVdrgjcytyOmPCXrqXFcUnhonRpLlh5yxEZVohm6mzaowUOw==
+  version "0.7.28"
+  resolved "https://registry.yarnpkg.com/ua-parser-js/-/ua-parser-js-0.7.28.tgz#8ba04e653f35ce210239c64661685bf9121dec31"
+  integrity sha512-6Gurc1n//gjp9eQNXjD9O3M/sMwVtN5S8Lv9bvOYBfKfDNiIIhqiyi01vMBO45u4zkDE420w/e0se7Vs+sIg+g==
 
 union-value@^1.0.0:
   version "1.0.1"
