@@ -2,6 +2,15 @@
 # yarn lockfile v1
 
 
+"******/utils@^2.0.38":
+  version "2.0.38"
+  resolved "https://registry.yarnpkg.com/******/utils/-/utils-2.0.38.tgz#0a47e7ec129c07ee2b5082794d0d2477fd28aa5b"
+  integrity sha512-qR/oNhw64D4hkghOPgPttofhNS6JKlzgxwhVs1l5fGFours6swO5dit0sg0GSe+17PGniL+y24UWn9gt59/KMw==
+  dependencies:
+    content-disposition "^0.5.3"
+    content-type "^1.0.4"
+    regenerator-runtime "^0.13.2"
+
 "@babel/runtime@^7.0.0":
   version "7.6.3"
   resolved "https://registry.yarnpkg.com/@babel/runtime/-/runtime-7.6.3.tgz#935122c74c73d2240cafd32ddb5fc2a6cd35cf1f"
@@ -32,15 +41,6 @@
   version "3.0.1"
   resolved "https://registry.yarnpkg.com/@redux-dynostore/redux-saga/-/redux-saga-3.0.1.tgz#2482683da0964644bcee07af23f51f57709c0426"
   integrity sha512-kbul6xPXKZ/CZOYz50Cynrxp8gAk8t8u8VSKyyN9kTxFZ+P3S2et4KZWCgiTvDJ7FhDdDzZe72tF5KqM6czGjg==
-
-"******/utils@^2.0.38":
-  version "2.0.38"
-  resolved "https://registry.yarnpkg.com/******/utils/-/utils-2.0.38.tgz#0a47e7ec129c07ee2b5082794d0d2477fd28aa5b"
-  integrity sha512-qR/oNhw64D4hkghOPgPttofhNS6JKlzgxwhVs1l5fGFours6swO5dit0sg0GSe+17PGniL+y24UWn9gt59/KMw==
-  dependencies:
-    content-disposition "^0.5.3"
-    content-type "^1.0.4"
-    regenerator-runtime "^0.13.2"
 
 "@types/hoist-non-react-statics@^3.3.0":
   version "3.3.1"
@@ -1126,9 +1126,9 @@ debug@^3.2.6:
     ms "^2.1.1"
 
 decode-uri-component@^0.2.0:
-  version "0.2.0"
-  resolved "https://registry.yarnpkg.com/decode-uri-component/-/decode-uri-component-0.2.0.tgz#eb3913333458775cb84cd1a1fae062106bb87545"
-  integrity sha1-6zkTMzRYd1y4TNGh+uBiEGu4dUU=
+  version "0.2.2"
+  resolved "https://registry.yarnpkg.com/decode-uri-component/-/decode-uri-component-0.2.2.tgz#e69dbe25d37941171dd540e024c444cd5188e1e9"
+  integrity sha512-FqUYQ+8o158GyGTrMFJms9qh3CqTKvAqgqsTnkLI8sKu0028orqBhxNMFkFen0zGyg6epACD32pjVk58ngIErQ==
 
 deep-extend@^0.6.0:
   version "0.6.0"
